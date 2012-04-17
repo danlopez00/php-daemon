@@ -1,0 +1,11 @@
+Daemon Class in PHP
+-------------------
+
+Create and control *nix daemon processes. Use the daemon class to create new subclasses and extend functionality
+
+Requirements:
+ * Unix like operating system
+ * PHP 4 >= 4.3.0 or PHP 5
+ * PHP compiled with:
+ * --enable-sigchild
+ * --enable-pcntl
